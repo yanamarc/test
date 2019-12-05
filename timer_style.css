@@ -1,0 +1,27 @@
+body{
+    background: url(./images/1843.jpg) no-repeat; 
+    background-size: cover; 
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    
+}
+
+.timer{ 
+  height: 200px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+.timer-numbers{ 
+  color: white;
+  padding: 20px;
+  resize: both;
+  overflow: auto;
+}
