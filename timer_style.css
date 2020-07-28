@@ -4,24 +4,22 @@ body{
     position: relative;
     height: 100vh;
     overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     
 }
 
 .timer{ 
-  height: 200px;
-  width: 60%;
+  height: 300px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  resize: both;
-  overflow: auto;
 }
 
 .timer-numbers{ 
   color: white;
   padding: 20px;
-  resize: both;
-  overflow: auto;
+  font-size: 50px;
 }
